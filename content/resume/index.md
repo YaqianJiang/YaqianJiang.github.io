@@ -1,7 +1,7 @@
 ---
 title: 'Resume'
 layout: resume
-resumeTemplate: 'yml/aleckmann-resume.yml'
+resumeTemplate: 'yml/yaqian-jiang-resume.yml'
 params:
   showDate: false
   showAuthor: false
