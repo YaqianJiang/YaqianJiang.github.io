@@ -1,0 +1,91 @@
+---
+content:
+  basics:
+    name: Yaqian (Jade) Jiang
+    headline: Data Science | Applied Mathematics | Complex Systems
+    email: jyq18213890522@icloud.com
+    url: https://yaqianjiang.github.io
+
+  profiles:
+    - network: GitHub
+      url: https://github.com/YaqianJiang
+      username: YaqianJiang
+    - network: LinkedIn
+      url: https://www.linkedin.com/in/yaqian-jiang-b938a2278/
+      username: yaqian-jiang
+
+  education:
+    - institution: King's College London
+      url: https://www.kcl.ac.uk/
+      degree: MSc
+      area: Complex Systems and Data Modelling
+      startDate: 2026-09-01
+      endDate: 2027-09-01
+      summary: |
+        - Mathematical and computational training in complex networks, stochastic processes, mathematical foundations, and statistical learning.
+    - institution: Dongbei University of Finance and Economics
+      degree: BSc
+      area: Data Science and Big Data Technology
+      startDate: 2022-09-01
+      endDate: 2026-07-01
+      score: 89.66/100 | Ranked 3rd of 28
+      courses:
+        - Python
+        - SQL and Databases
+        - Data Visualisation (Python/Tableau)
+        - Probability and Mathematical Statistics
+        - Big Data Platforms (Spark)
+      summary: |
+        IELTS Academic: 6.5.
+
+  work:
+    - name: Yunnan Big Data Co., Ltd.
+      position: Data R&D Intern, R&D Centre
+      startDate: 2025-06-01
+      endDate: 2025-09-01
+      summary: |
+        - Supported the Yunnan Provincial Integrated Public Data Platform, mapping end-to-end data workflows across collection, cleaning, transformation, scheduling, and task dependencies on Transwarp TDS/TDH; documented operational logic to support fault diagnosis and traceability.
+        - Compared public-data development and authorised-operation policies across **7 provinces and municipalities**, analysing platform roles, data flows, and operating entities to inform platform mechanisms and policy drafting.
+
+  projects:
+    - name: LSTM-Augmented DQN for Quantitative Trading in Partially Observable Markets
+      description: First author; manuscript submitted to *Expert Systems with Applications* | Dec 2024–Present
+      summary: |
+        - Developed an LSTM-enhanced Deep Q-Network for financial trading under partial observability, combining recurrent state representation, moving-average-based action constraints, and a multi-objective reward balancing returns, risk, transaction costs, and position limits.
+        - Backtested on historical China A-share data: achieved **24.25% annualised return** and **1.38 Sharpe ratio**, improving profitability by **39%** over baseline DQN under the same conditions.
+
+    - name: Supply Chain Fulfilment Risk Identification and Strategy Validation
+      description: Course project | May 2025–Jun 2025
+      summary: |
+        - Cleaned and engineered features from **180,000+ historical orders** and **17 business features**; used correlation screening and PCA to reduce a 24-dimensional feature space to **5 principal components**.
+        - Compared **6 classification models** using five-fold cross-validation and grid-search tuning. Random Forest, XGBoost, and MLP achieved **96.69% accuracy**, with **98.2% recall** on high-risk orders; the best Random Forest model reached **0.9953 ROC-AUC**.
+        - Identified actual transportation time as the leading risk driver (**0.58 feature importance**) and found that high-priced, heavily discounted products had approximately **47% higher delay risk** than comparable low-discount orders; proposed lead-time threshold alerts and tiered transport controls.
+
+    - name: Measuring Supply Chain Resilience in the Photovoltaic Industry
+      description: National Undergraduate Statistical Modelling Competition | Provincial Second Prize | Apr 2025–Jun 2025
+      summary: |
+        - Built a directed, weighted supply-chain network from five years of relationship data covering **20+ listed photovoltaic companies** across upstream, midstream, and downstream segments, using Python and NetworkX.
+        - Applied PageRank and HITS to identify influential firms and vulnerable nodes, and GraphSAGE to extract node representations; simulated random and targeted firm-removal attacks to quantify changes in network connectivity and structural stability.
+
+layout:
+  locale:
+    language: en
+  margins:
+    top: 1.15cm
+    left: 1.25cm
+    right: 1.25cm
+    bottom: 1.15cm
+  page:
+    showPageNumbers: false
+  template: moderncv-banking
+  typography:
+    fontSize: 9pt
+  sections:
+    aliases:
+      education: "Education"
+      work: "Internship Experience"
+      projects: "Research & Project Experience"
+    order:
+      - education
+      - work
+      - projects
