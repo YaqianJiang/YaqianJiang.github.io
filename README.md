@@ -30,8 +30,8 @@ This repository contains the source code for my personal website, built using [H
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aleckmann/aleckmann.github.io.git
-cd aleckmann.github.io
+git clone https://github.com/YaqianJiang/YaqianJiang.github.io.git
+cd YaqianJiang.github.io
 ```
 
 2. Start the Hugo development server:
@@ -65,7 +65,7 @@ The resume on this site uses one YAML data source and one Hugo rendering path. H
 
 ### Resume Configuration
 
-- The resume data is stored in `assets/yml/aleckmann-resume.yml`
+- The resume data is stored in `assets/yml/yaqian-jiang-resume.yml`
 - This YAML file contains structured data about work experience, education, skills, and other resume sections
 
 ### Local PDF Rendering
@@ -75,8 +75,8 @@ Build a local copy of the site with a loopback base URL, then print the resume p
 ```bash
 npm ci
 npx playwright install chromium
-hugo --destination /tmp/aleckmann-resume-render --cleanDestinationDir --baseURL http://127.0.0.1:4173/
-npm run resume:pdf -- --site-dir /tmp/aleckmann-resume-render --output public/resume/aleckmann-resume.pdf --port 4173
+hugo --destination /tmp/yaqian-jiang-resume-render --cleanDestinationDir --baseURL http://127.0.0.1:4173/
+npm run resume:pdf -- --site-dir /tmp/aleckmann-resume-render --output public/resume/yaqian-jiang-resume.pdf --port 4173
 ```
 
 ### GitHub Actions Workflow
